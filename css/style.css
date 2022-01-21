@@ -1,0 +1,196 @@
+* {
+    font-family: 'Roboto';
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0% auto;
+}
+section h1 {
+    margin-bottom: 4rem;
+    font-size: 32px;
+    border-bottom: solid 3px #000;
+    padding-top: 70px;
+}
+
+.d-flex {
+    display: flex;
+}
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+.flex-center-h {
+    justify-content: center;
+}
+.flex-center-v {
+    align-items: center;
+}
+
+.navbar-nav > li a{
+    display: flex!important;
+    justify-content: end!important;
+}
+
+.page-header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-image: url(../image/campuhan\ hill\ 1.png);
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+.page-header > * {
+    text-align: center;
+    color: #FFF;
+}
+
+.page-header > a {
+    padding: .5rem 1.5rem;
+    text-decoration: none;
+    background: #03AC0E;
+    border-radius: 4px;
+}
+
+.section {
+    margin: 0 auto;
+    width: 1080px;
+    min-height: 100vh;
+    height: auto;
+    padding: 1.5rem 0;
+    flex-direction: column;
+}
+
+.daftar-destinasi {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wisata {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.wisata > * {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wisata.reverse {
+    flex-direction: row-reverse;
+}
+
+.galeri {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: 15px;
+}
+
+.galeri > div {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+}
+
+.galeri > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+} 
+
+.galeri-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.galeri-2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.galeri-3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.galeri-4 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.galeri-5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.galeri-6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
